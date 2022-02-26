@@ -1,0 +1,23 @@
+.links{
+    width: 400px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+.linkedin a,
+.github a,
+.instagram a
+{
+    text-decoration: none;
+    line-height: 10rem;
+    color: rgba(255, 255, 255, 0.741);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 1rem;
+}
+.linkedin a:hover,
+.github a:hover,
+.instagram a:hover
+{
+    color: white;
+}

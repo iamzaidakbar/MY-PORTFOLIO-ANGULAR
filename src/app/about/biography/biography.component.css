@@ -1,0 +1,34 @@
+.container{
+    width: 400px;
+    margin-top: 7rem;
+    padding: 1rem;
+    padding-top: 5rem;
+    padding-left: 5rem;
+}
+.title h2{
+    font-size: 1.5rem;
+    color: black;
+    margin: 8px 0;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.title h2::before{
+    content: '';
+    border: 2px solid black;
+    border-radius: 20px;
+    display: flex;
+    width: 80px;
+    margin-left: -5.8rem;
+    margin-top: 13px;
+    position: absolute;
+}
+.profession p{
+    font-size: 1.3rem;
+    color: #0000008f;
+    margin: 15px 0;
+}
+.bio p{
+    color: #708098;
+    margin: 20px 0;
+    letter-spacing: 1px;
+}
