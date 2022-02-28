@@ -1,3 +1,37 @@
+.sort-container{
+  position: absolute;
+  right: 8%;
+  top: 27%;
+  display: flex;
+}
+.sort-container p {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+  color: rgb(53, 52, 52);
+}
+.sortLinks a{
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: rgba(0, 0, 0, 0.452);
+  padding: 7px;
+  cursor: pointer;
+}
+.sortLinks a:hover{
+  color: black;
+}
+.sortLinks .active{
+  color: black;
+  font-weight: 500;
+}
+button{
+  border: none;
+  padding: 5px 13px;
+  color: white;
+  background: none;
+  font-size: 1.3rem;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  letter-spacing: 2px;
+  font-weight: 900;
+}
 .container {
   position: relative;
   top: 7.5rem;

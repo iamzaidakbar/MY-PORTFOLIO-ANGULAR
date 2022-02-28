@@ -1,3 +1,13 @@
+<div class="sort-container">
+  <div></div>
+  <p>Sort By : </p>
+ <div class="sortLinks">
+  <a [ngClass]="{active: active === 'title' }" (click)="SortPotsByTitle()" >A-Z</a>
+  <a [ngClass]="{active: active === 'reverse'}" (click)="SortPostsByTitleReverse()" >Z-A</a>
+  <a [ngClass]="{active: active === 'newAdded'}" (click)="SortPostsByNewAdded()" >New Added</a>
+  <a [ngClass]="{active: active === 'lastAdded'}" (click)="SortPostsByLastAdded()" >Last Added</a>
+ </div>
+</div>
 <div class="container">
   <div class="card" *ngFor="let post of posts">
     <div class="card-img">
