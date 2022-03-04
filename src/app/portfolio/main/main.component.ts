@@ -19,7 +19,7 @@ export class MainComponent implements OnInit {
     {id:'10', title: 'WIKIPEDIA API', label: 'Angular', imgUrl: '/assets/wikipedia.png', Href: 'https://github.com/iamzaidakbar/WIKIPEDIA-API-ANGULAR' },
     {id:'11', title: 'TYPING GAME', label: 'Angular', imgUrl: '/assets/typing_test.png', Href: 'https://github.com/iamzaidakbar/TYPING-GAME-ANGULAR' },
     {id:'12', title: 'FAST PACED MATH GAME', label: 'Angular', imgUrl: '/assets/mathgame.png', Href: 'https://github.com/iamzaidakbar/FAST-PACED-MATH-GAME-ANGULAR' },
-    {id:'13', title: 'REAL EMAIL SERVICE', label: 'https://github.com/iamzaidakbar/REAL-EMAIL-SERVICE-ANGULAR-WITHBACKEND-SERVICE' },
+    {id:'13', title: 'REAL EMAIL SERVICE', label: 'Angular With Backend Service', imgUrl: '/assets/EmailService.png', Href: 'https://github.com/iamzaidakbar/REAL-EMAIL-SERVICE-ANGULAR-WITHBACKEND-SERVICE' },
   ]
 
   constructor() {
